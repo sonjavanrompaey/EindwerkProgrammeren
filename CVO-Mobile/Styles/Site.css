@@ -1,0 +1,211 @@
+﻿/*Opmaak voor de website*/
+* {
+    margin:0;
+    padding:0;
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    
+   
+}
+
+#main{
+    clear:both;
+    margin:25px;
+    margin-bottom:100px;
+}
+
+.header{
+    width:100%;
+    min-height:90px;
+    box-sizing:border-box;
+    background-color:#4388cc;
+    border-bottom: 4px solid #00ffff;
+        
+}
+
+.header img{
+    float:left;
+    width:321px;
+    height:84px;
+    background-color:#ffffff;
+    margin-left:3px;
+    margin-top:2px;    
+    
+}
+
+.header p{
+    float:right;
+    margin-right:30px;
+    margin-top:30px;
+    color:white;
+}
+
+.header input{
+    margin-left:20px;
+    height:20px;
+}
+
+.header button{
+    clear:right;
+    float:right;
+    margin-top:5px;
+    margin-right:30px;
+    padding:4px;
+    width:80px;
+}
+
+.Nav{
+    clear:both;
+    min-height:90px;
+    box-sizing:border-box;
+}
+
+.Nav img, .links h2,.spacing{
+    float:left;
+    font-size:38px;
+    
+}
+
+/*.links img{
+background-color:green;
+margin-left:8%;
+}*/
+
+.links h2{
+    margin-top:50px;
+}
+
+.Nav img{
+    width:40px;
+    height:40px;
+    margin:20px;
+}
+
+.links img{
+    width:80px;
+    height:80px;
+    margin-left:10%;
+    
+}
+
+/*.Test{
+    width:80%;
+    position:absolute;
+}
+
+#Link1{
+    left:25%;
+}
+#Link2{
+    left:45%;
+}
+
+#Link3{
+    left:65%;
+}*/
+
+/*.Nav{
+    clear:both;
+    width:100%;
+    height:90px;
+    box-sizing:border-box;
+    background-color:red;
+}
+
+.Navigation{
+    margin:10px;
+}
+
+.Icons h2{
+    margin-left:25%;
+    float:left;
+}
+
+.Nav .Navigation, .Nav .Icons, nav img{
+    float:left;
+}
+
+.Nav .Navigation img{
+    width:40px;
+    height:40px;
+}
+
+.Nav img{
+    width:70px;
+    height:70px;
+}*/
+
+.footer{
+    clear:both;
+    position:fixed;
+    bottom:0;
+    background-color:#4388cc;
+    border-top: 4px solid #00ffff;
+    height:50px;
+    width:100%;
+
+}
+
+.footer p{
+    margin-top:24px;
+    margin-left:30px;    
+    float:left;
+}
+
+.footer img{
+    float:right;
+    width:264px;
+    height:55px;  
+    margin-bottom:2px;
+    margin-right:2px;    
+    margin-top:0px;
+}
+
+table, td {
+    padding: 5px;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #DB5C3D;
+    font-weight: bold;
+    border: 1px solid #DB5C3D;
+    color: #FFF;
+}
+
+.img_StatusGroen {
+    background-image: url('../Images/Circle_Green.png');
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.img_StatusOranje {
+    background-image: url('../Images/Circle_Orange.png');
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.img_StatusRood {
+    background-image: url('../Images/Circle_Red.png');
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.moodleCourse{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.moodleAssignment{
+    font-size:medium;
+    font-weight: bold;
+    padding: 0px 0px 10px 10px;
+}
+
+.moodleGrade{
+    font-weight: normal;
+    padding-left: 10px;
+}
